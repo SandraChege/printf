@@ -1,4 +1,4 @@
-.TH _PRINTF 3  "Holberton School 0x11. C - _printf"
+.TH _PRINTF 3 "19 October 2022" "0.11" "0x11. C - _printf"
 
 .SH NAME
 .B _printf\fR \- formatted output conversion
@@ -259,12 +259,17 @@ To print the values of LONG_MAX and LONG_MIN aligned and
 left-justified with a width of 30:
 
 .RS
+
+/**
+* main - function description
+* return : always (0)
+*/
+
 #include "main.h"
 
 #include <limits.h>
 
 int main(void)
-
 {
 
 	_printf("% -30ld -> LONG_MAX\\n", LONG_MAX);
